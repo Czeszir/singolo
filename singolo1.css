@@ -1,6 +1,6 @@
 @import "font.css";
 body {
-    font-family:"Lato", sans-serif;
+    font-family:'Lato Regular', sans-serif;
     font-size: 10px;
     margin: 0;
 }
@@ -131,18 +131,21 @@ color: #e66862;
     color:#666d89;
     padding-top: 67px;
     text-align: justify;
+    padding-bottom: 32px;
+
 }
+
 
 .title {
     font-size: 30px;
-    font-family: "Lato Black", sans-serif;
+    font-family: 'Lato Black', sans-serif;
     line-height: 0.9;
     letter-spacing: 0.2px;
 }
 
 .description {
     font-size: 18px;
-    font-family: "Lato Light", sans-serif;
+    font-family: 'Lato Light', sans-serif;
     padding-bottom: 44px;
     padding-top: 21px;
     line-height: 30px;
@@ -178,10 +181,10 @@ color: #e66862;
 .element-title {
     font-size: 18px; 
     padding-bottom:8px;
-    font-family: "Lato Black", sans-serif;
+    font-family: 'Lato Black', sans-serif;
 }
 .element-text {
-    font-family: "Lato Regular", sans-serif;
+    font-family: 'Lato Regular', sans-serif;
     font-size: 12px;
     line-height: 21px;
 }
