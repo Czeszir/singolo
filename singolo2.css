@@ -1,0 +1,136 @@
+@import "fonts.css";
+body {
+    font-family:'Lato Regular', sans-serif;
+    font-size: 10px;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box; 
+}
+p, ul, h1, h2, h3, h4, h5, h6{
+    margin:0;
+}  
+.content {
+    width:1020px;
+    margin: 0 auto;
+    padding: 0 40px;
+}   
+
+/*Работа с блоком header*/ 
+
+.portfolio {
+background-color: #2d303a;
+border-bottom: 6px solid #323746;
+color: #666d89;
+}
+
+.port-logo {
+   font-size: 30px;
+   padding-top: 67px;
+   font-family: 'Lato Black', sans-serif;
+}
+
+.info {
+    padding-top: 32px;
+    font-family: 'Lato Light', sans-serif;
+    font-size: 18px;
+}
+
+.list-portfolio {
+    padding-top: 20px;
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.el-nav { 
+border: 1px solid #666d89;
+border-radius: 5px;
+padding: 2.4px 6.4px;
+margin-right: 10px;
+}
+
+.el-nav:hover {
+border-color: #c5c5c5;
+color: #c5c5c5;
+cursor: pointer;
+}
+
+.el-active {
+    border-color: #c5c5c5;
+    color: #c5c5c5;
+}
+.pictures {
+    padding-top: 19px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    max-height: 670px;
+    overflow: hidden;
+    padding-bottom: 67px;
+}
+.img {  
+    padding-bottom: 19px; 
+}
+
+.about {
+    background-color: #f2f2f2;
+    border-bottom: 6px solid #ffffff;
+    color: #666d89;
+    padding-bottom: 67px;
+}
+
+.about-us {
+    padding-top: 67px;
+    font-size: 30px;
+    font-family: 'Lato Black', sans-serif;
+}
+
+.about-description {       
+    padding-top: 32px;
+    font-size: 18px;
+    font-family: 'Lato Light', sans-serif;
+}
+
+.about-list {
+    padding-top: 49px;
+    display: flex;
+}
+.about-title {
+    padding-top: 19px;
+    font-size: 18px;
+    font-family: 'Lato Black', sans-serif;
+    }
+
+.about-item {
+    padding-right: 20px;
+}
+
+.about-text {
+    padding-top: 18px;
+    font-size: 12px;
+    font-family: 'Lato Light', sans-serif;
+}
+
+.about-inner {      
+    display: flex;
+    padding-top: 28px;
+    
+}
+.inner-icon {
+    margin-right: 8px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #656d89;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+
+}
+
+.inner-icon:hover {
+    border-color: #c5c5c5;
+    cursor: pointer;
+    }
