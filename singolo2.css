@@ -50,11 +50,11 @@ padding-bottom: 16px;
 
 .el-nav { 
   
-    
     border: 1px solid #666d89;
     border-radius: 5px;
-    padding: 2.4px 6px;
+    padding: 2.4px 6.5px;
     margin-right: 10px;
+    letter-spacing: -.07px;
 }
 
 
