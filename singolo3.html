@@ -18,11 +18,11 @@
         <div class="content-information">
         <div class="login">
             <form class="conect" action="singolo3.html" method="POST" >
-                    <input type="text" name="ussername" placeholder="Name (Required)">
-                    <input type="email" name="email" placeholder="Email (Required)">  
-                    <input type="text" name="subject" placeholder="Subject">
-                    <textarea type="text" name="detail" placeholder="Describe your project in detail..."></textarea>
-                    <input type="submit" name="submit" placeholder="Submit"> 
+                    <input class="input detail" type="text" name="ussername" placeholder="Name (Required)">
+                    <input class="input detail" type="email" name="email" placeholder="Email (Required)">  
+                    <input class="input detail" type="text" name="subject" placeholder="Subject">
+                    <textarea class="input textarea" type="text" name="detail" placeholder="Describe your project in detail..."></textarea>
+                    <input class="submit" type="submit" name="submit" value="Submit"> 
             </form>
         </div>
         <div class="information">
@@ -33,16 +33,21 @@
                  Morbi at aliquet turpis, et consequat felis.</p>
                  <div class="icon-content">
                      <div class="icon-inform">
-                         <img src="assets/Img/phoneicon.png" alt="20" class="little-icon">
+                         <div class="little-icon"> 
+                         <img src="assets/Img/location.png" alt="20"> </div>
                          <p class="cont-inform">Elm St. 14/05 Lost City</p>
                      </div>
                      <div class="icon-inform">
-                         <img src="assets/Img/location.png" alt="21" class="little-icon">
-                         <p class="cont-inform">03528 331 86 35</p>
+                        <div class="little-icon"> 
+                         <img src="assets/Img/phoneicon.png" alt="21" >
+                        </div>
+                         <a class="cont-inform" href="tel:035283318635">03528 331 86 35</a>
                      </div>
                      <div class="icon-inform">
-                         <img src="assets/Img/mail.png" alt="22" class="little-icon">
-                         <p class="cont-inform">info@singolo.com</p>
+                        <div class="little-icon"> 
+                         <img src="assets/Img/mail.png" alt="22">
+                        </div>
+                         <a class="cont-inform" href="mailto:info@singolo.com">info@singolo.com</a>
                      </div>
                  </div>
             </div>
