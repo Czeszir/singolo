@@ -21,23 +21,29 @@ p, ul, h1, h2, h3, h4, h5, h6{
     background-color: #f06c64;
     border-bottom: 6px solid #ea676b;
     color:#f0d8d9 ;
-    padding-bottom: 17px;
+    padding-bottom: 28px;
 }
 
 .get-title {
     font-size: 30px;
-    padding-top: 67px;
+    padding-top: 60px;
     font-family: 'Lato Black', sans-serif;
+    letter-spacing: -0.2px;
 }
 
 .get-text {
-    font-size:18px;
-    padding-top:28px;
+    font-size: 18px;
+    padding-top: 17px;
     font-family: 'Lato Light', sans-serif;
+    letter-spacing: -0.21px;
+    line-height: 1.7;
+}
+.connect {
+    padding-top: 2px;
 }
 
 .content-information {
-    padding-top: 49px;
+    padding-top: 42px;
     display: flex;
 }
 
@@ -51,7 +57,9 @@ p, ul, h1, h2, h3, h4, h5, h6{
     border-radius: 5px;
     width: 100%;
     margin-bottom: 16px;
-    padding-left: 15px;
+    padding-left: 14px;
+   
+    line-height: 0.7;
 }
 
 .information {  
@@ -64,22 +72,26 @@ p, ul, h1, h2, h3, h4, h5, h6{
     
 }
 .contact-text {
-    padding-top: 18px;
+    padding-top: 8px;
     font-size: 12px;
-   line-height: 22px;
+    line-height: 22px;
+    letter-spacing: -0.16px;
 }
     .icon-inform {
         display: flex;
-         padding-top: 13px;
+        padding-bottom: 9px;
+        line-height: 12px;
+        letter-spacing: 0.4px;
+    
     }
     .icon-content {
-    padding-top: 31px;
+    padding-top: 26px;
 
     }
     .cont-inform {
        
-        font-size: 12px;
-        margin-left: 10px ;
+        font-size: 11px;
+        margin-left: 8px ;
     }
 .little-icon {
     
@@ -89,8 +101,10 @@ p, ul, h1, h2, h3, h4, h5, h6{
 .detail {
     height:38px ;
     font-size:12px;
-    font-family: 'Lato Regular' sans-serif;
+    font-family: 'Lato Regular', sans-serif; 
+    letter-spacing: 0.1px;
 }
+
 .textarea {
     padding-top: 13px;
     height: 202px;
@@ -98,6 +112,7 @@ p, ul, h1, h2, h3, h4, h5, h6{
     font-family:  'Lato Regular' ;
 
 }
+
 .input::placeholder{    
     color: #f48c8f;
 }
@@ -105,7 +120,7 @@ p, ul, h1, h2, h3, h4, h5, h6{
 .footer {
     background-color: #2d303a;
     height: 75px;
-    padding-top: 33px;
+    padding-top: 23px;
 }
 
 .footer .content {
@@ -117,12 +132,13 @@ padding-right: 0;
 }
 .footer-span {
  font-size: 12px;
-
+ letter-spacing: -0.1px;
+ padding-top: 6px;
 }
 
 .footer-icon {
 display: flex;
-padding-right: 35px;
+padding-right: 31px;
 }
 .footer-item {
 
