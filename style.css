@@ -28,14 +28,14 @@ p, ul, h1, h2, h3, h4, h5, h6{
 }
 
 .header .content {
-    padding: 35px;
+    padding: 37px;
     display: flex;
     justify-content: space-between;
     align-content: center;
 }
 
 .logo {
-    line-height: 22px;
+    line-height: 13px;
     font-size: 25px;
     cursor: pointer;
     padding-left: 2.9px;
@@ -51,7 +51,9 @@ p, ul, h1, h2, h3, h4, h5, h6{
     list-style: none;
     font-size: 12px;
     cursor: pointer;
-    padding-top: 8px;
+    padding-top: 5px;
+    padding-right: 3px;
+    letter-spacing: -0.2px;
 }
 
 .element-nav {
@@ -129,9 +131,9 @@ color: #e66862;
     background-color:#f2f2f2 ;
     border-bottom: 6px solid #ffffff;
     color:#666d89;
-    padding-top: 67px;
+    padding-top: 64px;
     text-align: justify;
-    padding-bottom: 32px;
+    padding-bottom: 31px;
 
 }
 
@@ -142,13 +144,13 @@ color: #e66862;
     line-height: 0.9;
     letter-spacing: 0.2px;
 }
-
 .description {
-    font-size: 18px;
-    font-family: 'Lato Light', sans-serif;
-    padding-bottom: 44px;
-    padding-top: 21px;
-    line-height: 30px;
+font-size: 18px;
+font-family: 'Lato Light', sans-serif;
+padding-bottom: 44px;
+padding-top: 23px;
+line-height: 30px;
+letter-spacing: -0.2px;
 }
 
 .inner{
@@ -159,10 +161,10 @@ color: #e66862;
 
 .element {
     width: 300px;
-    height: 85px;
+    height: 86px;
     overflow: hidden;
     position: relative;
-    margin-bottom: 38px;
+    margin-bottom: 37px;
     padding-left: 80px;
 }
 .element-logo {
@@ -192,12 +194,12 @@ color: #e66862;
     background-color: #2d303a;
     border-bottom: 6px solid #323746;
     color: #666d89;
-    padding-bottom: 16px;
+    padding-bottom: 18px;
     }
     
     .port-logo {
        font-size: 30px;
-       padding-top: 60px;
+       padding-top: 59px;
        font-family: 'Lato Black', sans-serif;
        letter-spacing: 0.2px;
     }
@@ -261,6 +263,9 @@ color: #e66862;
         padding-top: 60px;
         font-size: 30px;
         font-family: 'Lato Black', sans-serif;
+       white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     
     .about-description {       
@@ -275,19 +280,22 @@ color: #e66862;
     .about-list {
         padding-top: 45px;
         display: flex;
+      
+         
     }
     .about-title {
-        padding-top: 13px;
+        padding-top: 12px;
         font-size: 18px;
         font-family: 'Lato Black', sans-serif;
         }
     
     .about-item {
-        padding-right: 20px;
+        padding-right: 20px; 
+         max-width: 320px;
     }
     
     .about-text {
-        padding-top: 8px;
+        padding-top: 7px;
         font-size: 12px;
         letter-spacing: 0.1px;
         font-family: 'Lato Light', sans-serif;
@@ -321,12 +329,12 @@ color: #e66862;
             background-color: #f06c64;
             border-bottom: 6px solid #ea676b;
             color:#f0d8d9 ;
-            padding-bottom: 28px;
+            padding-bottom: 27px;
         }
         
         .get-title {
             font-size: 30px;
-            padding-top: 60px;
+            padding-top: 61px;
             font-family: 'Lato Black', sans-serif;
             letter-spacing: -0.2px;
         }
@@ -420,7 +428,7 @@ color: #e66862;
         .footer {
             background-color: #2d303a;
             height: 75px;
-            padding-top: 23px;
+            padding-top: 25px;
         }
         
         .footer .content {
